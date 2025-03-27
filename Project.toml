@@ -3,7 +3,15 @@ uuid = "53e2d180-00a8-4b9f-aa62-0b938032b710"
 authors = ["tretyak-ilya"]
 version = "1.0.0-DEV"
 
+[deps]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
 [compat]
+LinearAlgebra = "1.11.0"
+Revise = "3.7.3"
+SparseArrays = "1.11.0"
 julia = "1.6.7"
 
 [extras]
