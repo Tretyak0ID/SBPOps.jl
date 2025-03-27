@@ -1,4 +1,4 @@
-module sbp_ops
+module SBPOps
 
     using SparseArrays
 
